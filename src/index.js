@@ -41,7 +41,7 @@ const httpLink = new HttpLink({
 // );
 
 const client = new ApolloClient({
-  uri: 'https://foxmood-21.herokuapp.com/playground',
+  uri: 'https://foxmood-21.herokuapp.com',
   // link,
   cache: new InMemoryCache().restore({}),
 });

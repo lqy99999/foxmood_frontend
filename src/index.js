@@ -41,7 +41,7 @@ import { getMainDefinition } from "apollo-utilities";
 // );
 
 const client = new ApolloClient({
-  uri: 'https://foxmood-21.herokuapp.com',
+  uri: 'https://foxmood-21.herokuapp.com/playground',
   // link,
   cache: new InMemoryCache().restore({}),
 });

@@ -41,7 +41,8 @@ const link = split(
 );
 
 const client = new ApolloClient({
-  uri: 'https://foxmood-21.herokuapp.com',
+  // uri: 'https://foxmood-21.herokuapp.com',
+  uri: 'https://35.232.10.173',
   // link,
   cache: new InMemoryCache().restore({}),
 });

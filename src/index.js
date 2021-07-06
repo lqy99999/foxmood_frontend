@@ -14,10 +14,10 @@ import { split } from "apollo-link";
 import { WebSocketLink } from "apollo-link-ws"; 
 import { getMainDefinition } from "apollo-utilities";
 
-// // Create an http link:
-// const httpLink = new HttpLink({
-//   uri: 'http://localhost:5000/',
-// });
+// Create an http link:
+const httpLink = new HttpLink({
+  uri: 'https://foxmood-21.herokuapp.com/playground',
+});
 
 // // Create a WebSocket link:
 // const wsLink = new WebSocketLink({
